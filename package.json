@@ -1,0 +1,21 @@
+{
+  "name": "split-image",
+  "version": "1.0.0",
+  "description": "Split image horizondally, each split with given height",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "split",
+    "cut",
+    "spark",
+    "jimp"
+  ],
+  "author": "Basil K Y",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "sharp": "^0.27.0"
+  }
+}
