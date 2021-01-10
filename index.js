@@ -14,7 +14,7 @@ const imageSplitter = require('./imageSplitter.js')
     chuncks.forEach(c => {
       i++
       actions.push(
-        fs.writeFile(`./imgs/slice_${i}.png`, c, function (err, result) {
+        fs.writeFile(`./imgs/slice_${i}.jpg`, c, function (err, result) {
           if (err) console.log('error', err)
         })
       )
