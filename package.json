@@ -1,8 +1,13 @@
 {
-  "name": "split-image",
+  "name": "chop-image",
   "version": "1.0.0",
   "description": "Split image horizondally, each split with given height",
-  "main": "index.js",
+  "main": "imageSplitter.js",
+  "homepage": "https://github.com/basilky/chop-image.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basilky/chop-image.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +15,7 @@
     "image",
     "split",
     "cut",
+    "chop",
     "spark",
     "jimp"
   ],
