@@ -1,6 +1,6 @@
 {
   "name": "chop-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split image horizondally, each split with given height",
   "main": "imageSplitter.js",
   "homepage": "https://github.com/basilky/chop-image.git",
@@ -22,6 +22,6 @@
   "author": "Basil K Y",
   "license": "GPL-3.0",
   "dependencies": {
-    "sharp": "^0.27.0"
+    "sharp": "^0.32.0"
   }
 }
